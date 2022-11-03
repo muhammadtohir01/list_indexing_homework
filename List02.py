@@ -7,6 +7,6 @@ def main(list1):
         list: return answer
     """
     #list1=[1,2,3,4,5,6]
-    d=list1[0:1]
+    d=list1[:1]
     return d
 print(main([1,2,3,4,5]))
